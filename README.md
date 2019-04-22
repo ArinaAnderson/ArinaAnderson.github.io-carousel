@@ -1,1 +1,3 @@
-# ArinaAnderson.github.io-carousel
+---
+permalink: /index.html
+---
