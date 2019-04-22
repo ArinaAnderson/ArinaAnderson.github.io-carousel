@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Carousel</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/no-js-removal.js" async></script>
+</head>
+<body>
+  <section class="carousel" tabindex="1">
+    <input class="visually-hidden" type="radio" name="carousel-togglers" id="carousel-toggler-0" checked>
+    <input class="visually-hidden" type="radio" name="carousel-togglers" id="carousel-toggler-1">
+    <input class="visually-hidden" type="radio" name="carousel-togglers" id="carousel-toggler-2">
+    <input class="visually-hidden" type="radio" name="carousel-togglers" id="carousel-toggler-3">
+    <input class="visually-hidden" type="radio" name="carousel-togglers" id="carousel-toggler-4">
+    <input class="visually-hidden" type="radio" name="carousel-togglers" id="carousel-toggler-5">
+    <div class="carousel__togglers">
+      <label for="carousel-toggler-0" class="carousel__toggler  carousel__toggler--0"><span class="visually-hidden">Слайд 1</span></label>
+      <label for="carousel-toggler-1" class="carousel__toggler  carousel__toggler--1"><span class="visually-hidden">Слайд 2</span></label>
+      <label for="carousel-toggler-2" class="carousel__toggler  carousel__toggler--2"><span class="visually-hidden">Слайд 3</span></label>
+      <label for="carousel-toggler-3" class="carousel__toggler  carousel__toggler--3"><span class="visually-hidden">Слайд 4</span></label>
+      <label for="carousel-toggler-4" class="carousel__toggler  carousel__toggler--4"><span class="visually-hidden">Слайд 5</span></label>
+      <label for="carousel-toggler-5" class="carousel__toggler  carousel__toggler--5"><span class="visually-hidden">Слайд 6</span></label>
+    </div>
+    <div class="carousel__section" tabindex="1">
+      <div class="carousel__imgs">
+        <div id="carousel-img-0" class="carousel__img">  
+          <img src="img/lisb-monastery.jpg" width="480" height="287">
+        </div>
+        <div id="carousel-img-1" class="carousel__img">
+          <img src="img/sintra-quinta.jpg" width="480" height="287">
+        </div>
+        <div id="carousel-img-2" class="carousel__img  carousel__img--active">
+          <img src="img/sintra.jpg" width="480" height="287">
+        </div>
+        <div id="carousel-img-3" class="carousel__img  carousel__img--active">
+          <img src="img/cascais.jpg" width="480" height="287">
+        </div>
+        <div id="carousel-img-4" class="carousel__img  carousel__img--active">
+          <img src="img/guincho.jpg" width="480" height="287">
+        </div>
+        <div id="carousel-img-5" class="carousel__img  carousel__img--active">
+          <img src="img/stone-beach.jpg" width="480" height="287">
+        </div>
+      </div>
+    </div>
+    <button id="btn-prev" class="carousel__btn  carousel__btn--prev  carousel__btn--no-js"></button>
+    <button id="btn-next" class="carousel__btn  carousel__btn--next  btn--next  carousel__btn--no-js"></button>
+  </section>
+
+  <script src="js/carousel.js"></script>
+</body>
+</html>
+
+
